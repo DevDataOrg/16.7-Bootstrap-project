@@ -136,15 +136,20 @@ body {
 
 .hero__container {
   padding-top: 15px;
-  min-height: 520px;
+  /* min-height: 520px; */
 }
 
 .hero__group {
   gap: 30px;
 }
 
+.hero__left {
+  padding-bottom: 130px;
+}
+
 .hero__right {
-  background-position: center right;
+  min-height: 593px;
+  background-position: top 5px right 1px;
   background-image: url("../img/hero-img.png");
   background-size: contain;
   background-repeat: no-repeat;
