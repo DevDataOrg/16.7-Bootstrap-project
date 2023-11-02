@@ -87,7 +87,7 @@ body {
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 1140px;
   /* padding: 0 15px;
   margin: 0 auto; */
 }
@@ -99,11 +99,11 @@ body {
 }
 
 .header__container {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 29px;
+  padding-bottom: 26px;
   justify-content: space-between;
   align-items: center;
-  max-width: 1110px;
+  max-width: 1140px;
 }
 
 .header__logo {
@@ -136,28 +136,29 @@ body {
 
 .hero__container {
   padding-top: 15px;
+  max-width: 1140px;
   /* min-height: 520px; */
 }
 
 .hero__group {
-  gap: 30px;
+  gap: 10px;
 }
 
 .hero__left {
-  padding-bottom: 130px;
+  padding-bottom: 128px;
 }
 
 .hero__right {
-  min-height: 593px;
-  background-position: top 5px right 1px;
+  /* min-height: 593px; */
+  background-position: top 0px right 0px;
   background-image: url("../img/hero-img.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .hero__title {
   margin: 0;
-  padding-top: 130px;
+  padding-top: 115px;
   margin-bottom: 30px;
   font-size: 60px;
   font-weight: 700;
@@ -166,7 +167,9 @@ body {
 }
 
 .hero__descr {
-  margin-bottom: 70px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 58px;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
@@ -183,3 +186,75 @@ body {
   background: #3f2aff;
   color: #fff;
 }
+
+/*! about-us */
+
+.about-us__group {
+  padding-top: 80px;
+  padding-bottom: 14px;
+}
+
+.about-us__left {
+  /* padding-top: 102px; */
+  background-position: top 21px right 16px;
+  background-image: url("../img/about-us.jpg");
+  /* background-size: contain; */
+  background-size: 86%, auto, contain;
+  background-repeat: no-repeat;
+}
+
+.about-us__title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 17px;
+  max-width: 380px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 40px */
+  color: #2E2B44;
+}
+
+.about-us__descr {
+  padding: 0;
+  margin: 0;
+  max-width: 585px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  color: #666;
+}
+
+.about-us__item {
+  background-position: top 11px left 17px;
+  background-size: 20%, auto, contain;
+  background-repeat: no-repeat;
+}
+
+.about-us__item-img1 {
+  background-image: url("../img/about-1.svg");
+}
+
+.about-us__item-img2 {
+  background-image: url("../img/about-2.svg");
+}
+
+.about-us__item-img3 {
+  background-image: url("../img/about-3.svg");
+}
+
+
+.about-us__item-descr {
+  margin: 0;
+  padding: 0;
+  padding-top: 22px;
+  padding-bottom: 30px;
+  padding-left: 110px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 19.2px */
+  color: #666;
+}
+
