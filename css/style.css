@@ -366,6 +366,19 @@ body {
   color: #fff;
 }
 
+.span__text::before {
+  content: "";
+  display: block;
+  flex-shrink: 0;
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/courses_time.svg);
+  background-position: left center;
+  background-size: 24px;
+  background-repeat: no-repeat;
+}
+
 .course__item-title {
   padding: 0;
   margin: 0;
